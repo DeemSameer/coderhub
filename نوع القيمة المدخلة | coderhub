@@ -1,0 +1,13 @@
+public static String inputType(String value) {
+    	  try{
+    	    Integer.parseInt(value); 
+    	  }catch(Exception ex){
+    	    try{
+    	    Double.parseDouble(value); 
+    	  }catch(Exception e){
+    	    return "string"; 
+    	  }
+    	  return "double"; 
+    	  }
+    	  return "integer"; 
+    	}
