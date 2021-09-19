@@ -1,0 +1,7 @@
+public static boolean findElement(int[] array, int element) {
+  for(int e:array){
+    if(e==element)
+    return true; 
+  }
+  return false; 
+}
